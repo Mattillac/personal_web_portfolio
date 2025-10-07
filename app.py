@@ -20,7 +20,7 @@ def works():
 
 @app.route('/contact')
 def contact():
-    return "Contact Page. please create me an html page with dummy contact info"
+    return render_template('contacts.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
