@@ -6,9 +6,11 @@
  
 # "All of my images" used in this portfolio came from <br> ["Pinterest"](https://ph.pinterest.com/pin/43910165110412752/).
  
-### You want to view but don't want to download all of my file?
+### 🌃 You want to view it but don't want to download all of my files?
 
 ## d o n ' t &nbsp; w o r r y &nbsp; i &nbsp; g o t &nbsp; y o u......
+
+### h e r e  y o u  g o 📼🌸🐬
 
 ![sneak p e e k](https://github.com/Mattillac/personal_web_portfolio/blob/main/static/images/Screenshot%202025-10-08%20162033.png)
 
