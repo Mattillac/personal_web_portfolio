@@ -1,6 +1,6 @@
 # ｗｅｌｃｏｍｅ ｔｏ  ｍｙ ｐｏｒｔｆｏｌｉｏ！
 
-This is my personal website! feel free to explore my things here.
+🌴 This is my personal website! feel free to explore my things here. 🌴
 
 ![Spinning](https://github.com/Mattillac/personal_web_portfolio/blob/main/static/images/album.gif)
  
@@ -16,4 +16,7 @@ This is my personal website! feel free to explore my things here.
 
 ![sneak p e e k](https://github.com/Mattillac/personal_web_portfolio/blob/main/static/images/Screenshot%202025-10-08%20162059.png)
 
-# all thanks to [**_Bro Code_**](https://www.youtube.com/watch?v=HD13eq_Pmp8&t=439s)
+# all thanks to [**_Bro Code_**](https://www.youtube.com/watch?v=HD13eq_Pmp8&t=439s).....
+
+maybe in the future i'll update this again..... ☀️
+パン
