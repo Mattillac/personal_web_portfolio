@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>△</title>
+</head>
+<body style="background-image: url('/static/images/selit.jpg'); 
+             background-size: cover; 
+             background-repeat: no-repeat; 
+             background-attachment: fixed;">
+             
+    <h1 style="font-family: 'Lucida Console', serif; font-size: 100px; 
+               text-align: center; 
+               color: rgb(255, 255, 255);
+               position: absolute; top: 30px; left: 0; right: 0; bottom: 50px; -webkit-text-stroke: 1px rgb(255, 255, 255); font-size: 50px;">
+        A r e a &nbsp;    o f   &nbsp;  t r i a n g l e
+    </h1>
+
+   <form action="/areaoftriangle" method="post"
+     style="position: absolute; top: 150px; left: 600px; padding: 20px; background: rgba(0, 21, 255, 0.5); color: rgb(255, 255, 255);">
+        <label for="base">Enter a base:</label>
+        <input type="text" id="base" name="Base"><br><br>
+
+        <label for="height">Enter a height:</label>
+        <input type="text" id="height" name="Height"><br><br>
+
+        <input type="submit" value="Calculate">
+    </form>
+
+    <img src="/static/images/anxbo.jpg" height="320" alt="answer box!"
+       style="position: absolute; bottom: 110px; left: 580px;">
+
+    <img src="/static/images/error.gif" height="420" alt="answer box!"
+       style="position: absolute; top: 460px; left: 675px;">
+    
+    <img src="/static/images/tria.gif" height="420" alt="answer box!"
+       style="position: absolute; top: 160px; left: 1045px;">
+
+    <img src="/static/images/ngle.gif" height="420" alt="answer box!"
+       style="position: absolute; top: 160px; right: 1005px;">
+
+    <img src="/static/images/infi.gif" height="130" alt="answer box!"
+       style="position: absolute; top: 60px; right: 95px;">
+
+    <img src="/static/images/infi.gif" height="120" alt="answer box!"
+       style="position: absolute; top: 20px; right: 85px;">
+
+    <img src="/static/images/spin.gif" height="150" alt="answer box!"
+       style="position: absolute; top: 40px; right: 1305px;">
+
+    <img src="/static/images/spin.gif" height="50" alt="answer box!"
+       style="position: absolute; top: 40px; right: 1305px;">
+
+{% if result %}
+<div id="result" style="
+    position: absolute;
+    top: 310px;
+    left: 594px;
+    color: rgb(0, 0, 0);
+    line-height: 100px;
+    font-size: 14px;
+    font-family: 'Lucida Console', serif;">
+    Area: {{ result }}
+</div>
+{% endif %}
+</body>
+</html>

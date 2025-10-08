@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>π</title>
+</head>
+<body style="background-image: url('/static/images/selit.jpg'); 
+             background-size: cover; 
+             background-repeat: no-repeat; 
+             background-attachment: fixed;">
+             
+    <h1 style="font-family: 'Lucida Console', serif; font-size: 100px; 
+               text-align: center; 
+               color: rgb(255, 255, 255);
+               position: absolute; top: 30px; left: 0; right: 0; bottom: 50px; -webkit-text-stroke: 1px rgb(255, 255, 255); font-size: 50px;">
+        A r e a &nbsp;    o f   &nbsp;  c i r c l e
+    </h1>
+
+    <form action="/areaofcircle" method="post"
+        style="position: absolute; top: 200px; left: 600px; width: 300px; padding: 20px; background: rgba(0, 21, 255, 0.5); color: rgb(255, 255, 255);">
+        <label for="radius">Enter a radius:</label>
+        <input type="text" id="radius" name="Radius">
+        <input type="submit" value="Convert">
+    </form>
+   <img src="/static/images/anxbo.jpg" height="320" alt="answer box!"
+       style="position: absolute; bottom: 110px; left: 580px;">
+
+    
+    <img src="/static/images/circle.gif" height="420" alt="answer box!"
+       style="position: absolute; top: 160px; left: 1045px;">
+
+    <img src="/static/images/circle.gif" height="420" alt="answer box!"
+       style="position: absolute; top: 160px; right: 1005px; transform: scaleX(-1);">
+
+    <img src="/static/images/cd.gif" height="220" alt="answer box!"
+       style="position: absolute; bottom: 510px; left: 1245px;">
+
+    <img src="/static/images/cd.gif" height="220" alt="answer box!"
+       style="position: absolute; bottom: 510px; right: 1245px; transform: scaleX(-1);">
+
+    <img src="/static/images/Ghastly.gif" height="220" alt="answer box!"
+       style="position: absolute; bottom: 10px; left: 1045px;">
+
+    <img src="/static/images/Ghastly.gif" height="220" alt="answer box!"
+       style="position: absolute; bottom: 10px; left: 285px; transform: scaleX(-1);">
+
+
+{% if result %}
+<div id="result" style="
+    position: absolute;
+    top: 310px;
+    left: 594px;
+    color: rgb(0, 0, 0);
+    line-height: 100px;
+    font-size: 14px;
+    font-family: 'Lucida Console', serif;">
+    Area: {{ result }}
+</div>
+{% endif %}
+</body>
+</html>

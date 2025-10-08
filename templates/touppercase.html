@@ -3,17 +3,73 @@
 <head>
     <title>Convert to Uppercase</title>
 </head>
-<body>
-    <h1>Convert String to Uppercase</h1>
+<body style="background-image: url('/static/images/selit.jpg'); 
+             background-size: cover; 
+             background-repeat: no-repeat; 
+             background-attachment: fixed;">
+             
+    <h1 style="font-family: 'Lucida Console', serif; font-size: 100px; 
+               text-align: center; 
+               color: rgb(255, 255, 255);
+               position: absolute; top: 30px; left: 0; right: 0; bottom: 50px; -webkit-text-stroke: 1px rgb(255, 255, 255); font-size: 50px;">
+        convert &nbsp;    to   &nbsp;  u p p e r c a s e
+    </h1>
 
-    <form action="/works" method="post">
-        <label for="inputString">Enter a string:</label>
+    <form action="/touppercase" method="post"
+        style="position: absolute; top: 200px; left: 580px; padding: 20px; background: rgba(0, 21, 255, 0.5); color: rgb(255, 255, 255);">
+        <label for="inputString">Enter any value:</label>
         <input type="text" id="inputString" name="inputString">
         <input type="submit" value="Convert">
     </form>
 
-    {% if result %}
-    <p>Converted string: {{ result }}</p>
-    {% endif %}
+    <img src="/static/images/anxbo.jpg" height="320" alt="answer box!"
+       style="position: absolute; bottom: 110px; left: 580px;">
+
+
+    <img src="/static/images/wave.gif" height="420" alt="answer box!"
+       style="position: absolute; top: 160px; left: 1045px;">
+
+    <img src="/static/images/romano.gif" height="160" alt="answer box!"
+       style="position: absolute; top: 280px; left: 1125px;">
+
+     <img src="/static/images/album.gif" height="160" alt="answer box!"
+       style="position: absolute; top: 10px; left: 55px;">
+
+     <img src="/static/images/2.gif" height="260" alt="answer box!"
+       style="position: absolute; top: 250px; left: 55px;">
+
+    <img src="/static/images/sea.gif" height="160" alt="answer box!"
+       style="position: absolute; top: 300px; right: 1000px;">
+
+    <img src="/static/images/1.gif" height="150" alt="answer box!"
+       style="position: absolute; top: 400px; right: 1200px;">
+
+    <img src="/static/images/quilt.gif" height="160" alt="answer box!"
+       style="position: absolute; top: 20px; left: 1305px;">
+
+    <a href="https://en.wikipedia.org/wiki/Vaporwave" target="_blank">
+    <img src="/static/images/gleeb.gif" height="160" alt="answer box!"
+       style="position: absolute; top: 20px; left: 1305px;;">
+    </a>
+
+     <h1 style="font-family: 'Lucida Console', serif; font-size: 50px; 
+               color: rgb(242, 0, 255);
+               position: absolute; top: 500px; left: 90; right: 40px; bottom: 100px; -webkit-text-stroke: 1px rgb(0, 4, 255); font-size: 20px;">
+        e n j o y &nbsp; t h e &nbsp; v a p o r w a v e
+    </h1>
+
+
+{% if result %}
+<div id="result" style="
+    position: absolute;
+    top: 310px;
+    left: 594px;
+    color: rgb(0, 0, 0);
+    line-height: 100px;
+    font-size: 14px;
+    font-family: 'Lucida Console', serif;">
+    evolved to: {{ result }}
+</div>
+{% endif %}
 </body>
 </html>
