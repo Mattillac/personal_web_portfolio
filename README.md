@@ -4,7 +4,8 @@ This is my personal website! feel free to explore my things here.
 
 ![Spinning](https://github.com/Mattillac/personal_web_portfolio/blob/main/static/images/album.gif)
  
-# All of my images used in this portfolio came from [Pinterest](https://ph.pinterest.com/pin/43910165110412752/).
+# "All of my images" used in this portfolio came from <br>
+# [Pinterest](https://ph.pinterest.com/pin/43910165110412752/).
  
 You want to view but don't want to download all of my file?
 
