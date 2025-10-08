@@ -8,7 +8,7 @@ This is my personal website! feel free to explore my things here.
  
 You want to view but don't want to download all of my file?
 
-d o n ' t  w o r r y  i   g o t   y o u......
+d o n ' t &nbsp; w o r r y &nbsp; i &nbsp; g o t &nbsp; y o u......
 
 ![sneak p e e k](https://github.com/Mattillac/personal_web_portfolio/blob/main/static/images/Screenshot%202025-10-08%20162033.png)
 
