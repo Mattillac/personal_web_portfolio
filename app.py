@@ -49,5 +49,14 @@ def area_tri():
 def contact():
     return render_template('contacts.html')
 
+
+@app.route('/converter')
+def count():
+    if request.method == 'POST':
+        base = float(request.form.get('Base', ''))
+        height = float(request.form.get('Height', ''))
+        result = 1/2 * base * height
+    return render_template('finixtopostfix.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
