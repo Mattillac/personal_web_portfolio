@@ -23,6 +23,6 @@
 maybe in the future i'll update this again..... ☀️
 パン
 
-# 🌸 ｎｅｗ ｔｈｉｎｇ ａｄｄｅｄ！🌸
-## _- Updated my "WORKS" part with a new added work of mine called "infix to postfix" Converter!_
-## _- I also resized and refurbished my font styling and the positioning of my texts!_
+# 🌸 ｎｅｗ ｔｈｉｎｇ ａｄｄｅｄ！🌸 [10/28/2025]
+### _- Updated my "WORKS" part with a new added work of mine called "infix to postfix" Converter!_
+### _- I also resized and refurbished my font styling and the positioning of my texts!_
