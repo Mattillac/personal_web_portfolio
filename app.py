@@ -49,14 +49,50 @@ def area_tri():
 def contact():
     return render_template('contacts.html')
 
+def precedence(op):
+    if op in ('+', '-'):
+        return 1
+    if op in ('*', '/'):
+        return 2
+    if op == '^':
+        return 3
+    return 0
 
-@app.route('/converter')
+
+def is_operand(ch):
+    return ch.isalpha() or ch.isdigit()
+
+def infix_to_postfix(expression):
+    stack = []  
+    output = ''
+
+    for ch in expression:
+        if is_operand(ch):
+            output += ch
+        elif ch == '(':
+            stack.append(ch)
+        elif ch == ')':
+            while stack and stack[-1] != '(':
+                output += stack.pop()
+            stack.pop()
+        else: 
+            while stack and precedence(stack[-1]) >= precedence(ch):
+                output += stack.pop()
+            stack.append(ch)
+
+    while stack:
+        output += stack.pop()
+
+    return output
+
+
+@app.route('/finixtopostfix', methods=['GET', 'POST'])
 def count():
+    result = ""
     if request.method == 'POST':
-        base = float(request.form.get('Base', ''))
-        height = float(request.form.get('Height', ''))
-        result = 1/2 * base * height
-    return render_template('finixtopostfix.html')
+        infix_exp = request.form['expression']
+        result = infix_to_postfix(infix_exp)
+    return render_template('finixtopostfix.html', result=result)
 
 if __name__ == "__main__":
     app.run(debug=True)
